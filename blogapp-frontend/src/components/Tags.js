@@ -100,7 +100,7 @@ export default function Tags(){
                         </Typography>                        
                         <Avatar
                           alt={post.authorName}
-                          src={`http://localhost:4034/${post.author.profilePicture}`}
+                          src={post.author.profilePicture}
                           sx={{ width: 35, height: 35 }}
                         />
                       </Box>
